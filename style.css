@@ -7,7 +7,7 @@
 
 body {
      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;  
-     background-color: #0b1329; /* Latar gelap modern */
+     background-color: #0c1736; /* Latar gelap modern */
       color: #e2e8f0;  
       min-height: 100vh;  
       display: flex;  
@@ -23,8 +23,8 @@ body {
 
 /* ===== 2. KARTU PROFIL (MOBILE: COLUMN) ===== */
 .profile-card {  
-    background-color: #1e293b;  
-    border: 1px solid #334155;  
+    background-color: #ec2897;  
+    border: 1px solid #6f0c46;  
     border-radius: 20px;
     padding: 24px;  
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);  
@@ -40,14 +40,14 @@ body {
     align-items: center;  
     text-align: center;  
     padding-bottom: 20px;  
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid #010b1a;
 }
 
 .avatar-box {  
     width: 84px;  
     height: 84px;  
-    background: #0f172a;  
-    border: 2px solid #38bdf8;  
+    background: #ad065f;  
+    border: 2px solid #010c10;  
     border-radius: 50%;  display: flex;  
     justify-content: center;  
     align-items: center;  
@@ -57,19 +57,19 @@ body {
 
 .student-name {  
     font-size: 22px;  
-    color: #f8fafc;  
+    color: #fdfefe;  
     font-weight: 700;
 }  
 
 .student-role {
-     color: #38bdf8;  
+     color: #39032b;  
      font-size: 14px;  
      font-weight: 600;  
      margin-top: 4px;
 }
 
 .student-school {  
-    color: #94a3b8;  
+    color: #f7f5f6;  
     font-size: 13px;  
     margin-top: 2px;
 }
@@ -79,7 +79,7 @@ body {
     display: inline-block;  
     width: 100%; /* Tombol lebar penuh di HP */  
     text-align: center;  
-    background-color: #0284c7;  
+    background-color: #5c0642;  
     color: #ffffff;  
     text-decoration: none;  
     padding: 12px 20px;
@@ -90,7 +90,7 @@ body {
 }
 
 .btn-contact:hover {  
-    background-color: #0369a1;  
+    background-color: #640451;  
     transform: translateY(-2px);
 }
 
@@ -103,7 +103,7 @@ body {
 
 .section-heading {  
     font-size: 14px;  
-    color: #38bdf8;  
+    color: #570554;  
     text-transform: uppercase;  
     letter-spacing: 1px;  
     margin-bottom: 8px;  
@@ -124,9 +124,9 @@ body {
 }
  
 .skill-badge {  
-    background-color: #0f172a;  
-    border: 1px solid #1e40af;  
-    color: #7dd3fc;  
+    background-color: #710445;  
+    border: 1px solid #f5f6f8;  
+    color: #f9f5f8;  
     padding: 6px 14px;  
     border-radius: 20px;  
     font-size: 12.5px;  
@@ -135,7 +135,7 @@ body {
 }
 
 .skill-badge:hover {  
-    border-color: #38bdf8;  
+    border-color: #b1077e;  
     background-color: #1e293b;
 }
 
@@ -190,7 +190,7 @@ body {
 /* ===== CSS Tombol Toggle ===== */
 .btn-tema {
  background: transparent;
- border: 1px solid #38bdf8;
+ border: 1px solid #f05de1;
  color: #38bdf8;
  padding: 6px 12px;
  border-radius: 8px;
